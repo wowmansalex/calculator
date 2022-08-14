@@ -1,0 +1,94 @@
+.calculator-container {
+  background-color: black;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  background-color: black;
+  text-align: right;
+  vertical-align: center;
+  color: white;
+  vertical-align: center;
+  width: 200px;
+  height: 50px;
+  border: none;
+  font-size: 30px;
+}
+
+::placeholder {
+  text-align: right;
+  vertical-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+
+.input-part {
+  display: flex;
+  margin-bottom: 10px;
+  height: 70px;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.number-entry {
+  background-color: black;
+  text-align: right;
+  color: white;
+  margin-bottom: 5px;
+}
+
+
+
+.lower-part {
+  margin-bottom: 10px;
+}
+
+.numbers-part {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 5px;
+  margin-bottom: 20px;
+}
+
+.round-btn{
+  border: none;
+  height: 45px;
+  background-color: #505050;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  border-radius: 70px;
+}
+
+.selected {
+  background-color: white;
+  color: #FF9500;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  border-radius: 70px;
+  height: 45px;
+}
+
+.lighter-btn {
+  background-color: #D4D4D2;
+}
+
+.action-btn {
+  background-color: #FF9500 ;
+}
+
+#zero {
+  grid-column: span 2;
+  width: 100px;
+}
